@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 9, 2018, 7:58:08 PM
+    Author     : 00140469
+*/
+
+#cabecera {
+    
+  font-size:  24px;
+  font-family: Times New Roman;
+  color: #af583d;
+  text-align: center;
+      
+}
+
+UL LI{
+    
+    list-style: none;
+    background: #af583d;
+    display: inline;
+    font-size: 18px; 
+    font-family: Adobe Fan Heiti Std B;
+    padding: 10px;
+    border-radius: 5px;    
+    
+}
+
+
+#menu {
+    text-align: center;
+         
+}
+
+form{
+    width:700px;
+    background: #af583d;
+    padding: 1em;
+    margin:  0 auto;
+    border-radius: 50px;
+    text-align: left;    
+}
+    
+img{
+    
+    border-radius: 15px;
+    
+}
+
+#Cuerpo {
+    
+    text-align: center;
+    font-size: 18px;
+    
+    
+}
+
+#pie {
+    text-align: center;
+    font-size: 15px; 
+    font-family:  Times New Roman;
+    background: #af583d;
+}
+
+ a:hover {
+    color: red;
+     font-size: 30px; 
+ }
+ 
+ a:active {
+     color: white;
+ }
+ 
+ a:visited {
+     color: blue;
+     }
+     
+     #boton {
+         text-align: center;
+     }

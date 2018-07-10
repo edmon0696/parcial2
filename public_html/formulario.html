@@ -6,22 +6,22 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>FORMULARIO</title>
+        <title>FORMULARIO DE REGISTRO</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
         
     </head>
     <body>
         <div id="cabecera"> 
-            <br> FORMULARIO
-        </div>
-         <div id="cabecera"> 
-            <br> SUSHIBAN
+            <br> SUSHIBAN <br>
+        
+            FORMULARIO DE REGISTRO
         </div>
         
         <div id="menu">
             <ul>
-                <li>INICIO</li>
+                <li><a href=index.html>INICIO</a></li>
                 <li>MENU COMIDA</li>
                 <li>MENU BEBIDAS</li>
                 <li>CONTACTO</li>
@@ -33,46 +33,54 @@ and open the template in the editor.
      </body>
      
      <form>
-            <h4>BUSCAR EQUIPO:</h4> 
+            <h4>FORMULARIO</h4> 
          
             <DL> 
-                </LABEL form="nombre">  nombre</LABEL>
+                </LABEL form="nombre">NOMBRE</LABEL>
                 <INPUT TYPE="TEXT" name="Nombre"/>
                </DL> 
       
              <DL> 
-                </LABEL form="Telefono">  Telefono</LABEL>
+                </LABEL form="Telefono">TELEFONO</LABEL>
                 <INPUT TYPE="TEXT" name="Telefono"/>
                </DL> 
        
             
             
-             <DL> 
-                </LABEL form="Email">  Email</LABEL>
-                <INPUT TYPE="TEXT" name="Email"/>
-               </DL> 
+             <DL>
+                  <label for="email">EMAIL:</label>
+                  <INPUT TYPE="TEXT" name="EMAIL"/>
+                    
+             </DL> 
+            
                        
-        </form
-        
-        <div>
-                  <label for="que necesita"> QUE NECESITA?:</label>
-                     <select name="-SELECCIONA-">
-                         
-              <option value="select" selected="seleccione" </option> 
-              <option value="VIP"> Afiliarme como cliente VIP </option>                                 
-              <option value="INFO"> Recibir informacion de oferta </option>
-              <option value="INFO">Cliente en linea </option>
-                         <option value="otro"> OTRO</option>
+                
+     
+       <div>
+                          <label for="select"> QUE NECESITA?</label>
+                     
+                     <select name="select">
+                     <option value="select" selected="seleccione" </option> 
+                     <option value="Cliente VIP"> Cliente VIP </option>
+                     <option value="Recibir informacion de productos"> Recibir informacion de productos </option>
+                     <option value="Cliente en linea"> Cliente en linea </option>
+                     <option value="Otro"> Otro</option>
+                       
                  </select>
                  </div>
-        
+     
+           
          <div>    
                <label for="descripcion"> DESCRIPCION</label>
-                 <textarea name="descripcion" cols="100" rows="5"> </textarea>
+                 <textarea name="descripcion" cols="80" rows="4"> </textarea>
                  </div>   
+         </form>
+     <div id="boton">
         
-        <button type="submit" > Enviar su mensage</button>
+        <button type="submit"> Enviar su mensage</button>
+        </div>
           <div> <div id="pie">
+                  
             <P> Av. Texas (Arturo Grullón) 51000 Santiago De Los Caballeros República Dominicana. <br>
               Tel: (829) 996-2049
              </p>
